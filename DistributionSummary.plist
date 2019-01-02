@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>M3.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string></string>
+				<key>dateExpires</key>
+				<string></string>
+				<key>type</key>
+				<string>Unknown</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string></string>
+						<key>dateExpires</key>
+						<string></string>
+						<key>type</key>
+						<string>Unknown</string>
+					</dict>
+					<key>name</key>
+					<string>CMPCallDirectory.appex</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5BK3MS7NMK</string>
+						<key>name</key>
+						<string>jixiang life insurance co., LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string></string>
+						<key>dateExpires</key>
+						<string></string>
+						<key>type</key>
+						<string>Unknown</string>
+					</dict>
+					<key>name</key>
+					<string>PacketTunnel.appex</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5BK3MS7NMK</string>
+						<key>name</key>
+						<string>jixiang life insurance co., LTD</string>
+					</dict>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>M3.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5BK3MS7NMK</string>
+				<key>name</key>
+				<string>jixiang life insurance co., LTD</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
