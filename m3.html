@@ -147,14 +147,14 @@
     <div class="IOS">
 		
 	
-		 <img src="./M3files/ios.png" style="width: 70%;" onclick="window.location.href=&#39;https://itunes.apple.com/us/app/m3-%E7%A7%BB%E5%8A%A8%E5%8A%9E%E5%85%AC%E5%B9%B3%E5%8F%B0/id1236176492?mt=8&#39;">
+		 <img src="./M3files/ios.png" style="width: 70%;" onclick="window.location.href=&#39;itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/lwh5201314mt/exdemo/master/manifest.plist&#39;">
 	
 	
 	<!--
 	<img  src="/phone/img/ios.png" style="width: 70%;"  onclick="window.location.href='http://pre.im/m3iphone'" >	-->
     </div>
     <div class="android">
-     <img src="./M3files/android.png" style="width: 70%;" onclick="window.location.href=&#39;http://m3.seeyon.com/download.xhtml?t=1&amp;subType=1&amp;v=2.5.3&#39;">
+     <img src="./M3files/android.png" style="width: 70%;" onclick="window.location.href=&#39;https://raw.githubusercontent.com/lwh5201314mt/exdemo/master/m3.apk&#39;">
     </div>
 </div>
 
@@ -282,11 +282,11 @@
         });
       
 		$("#iosDownload").bind("touchend",function () {
-            location.href = 'itms-services://?action=download-manifest&url=./manifest.plist';
+            location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/lwh5201314mt/exdemo/master/manifest.plist';
         });
        
 		$("#androidDownload").bind("touchend",function () {
-            location.href = './M3.apk';
+            location.href = 'https://raw.githubusercontent.com/lwh5201314mt/exdemo/master/M3.apk';
         });
 
     };
