@@ -1,0 +1,27 @@
+
+
+*{margin: 0;padding: 0;}
+/*.fullscreen img{width: 100%;}*/
+.To_Explorer{width:100%;height:100%;position:fixed;left:0;top:0;bottom:0;right:0;display:none;
+    /*background:url('/phone/img/index_download_bg.jpg')no-repeat;background-size:100%;*/
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgba(255, 255, 255, 0.91);z-index:1000010;font-size: 17px;touch-action: none;  }
+.To_Explorer .content_bg{position:relative;width:100%;height:100%;background-color:rgba(0,0,0,0.33);}
+.To_Explorer .content{width: 80%;margin: auto;position: relative;padding-top:22px;}
+.To_Explorer .content img{width: 100%;margin-left: 15px;}
+.To_Explorer .content .text_content{position: absolute;bottom:4px;width: 100%;font-size: 20px;
+    color: #3AADFB;font-family: "microsoft yahei";margin-left: 15px;line-height:35px;letter-spacing: 0.5px;}
+.To_Explorer .content .text_content .text{padding: 15px;}
+
+
+#shadow{
+    position: fixed;width: 100%;height: 100%;z-index: 10000;top: 0;left: 0;background-color: white;
+}
+/* 判断ipad */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    .operator{height: 100%!important;}
+}
+
+

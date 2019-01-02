@@ -1,0 +1,156 @@
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 30%;
+}
+.swiper-container-other .swiper-slide {
+    width: 100%;
+
+}
+.swiper-container .swiper-slide {
+    width: 55%;
+
+}
+@keyframes arrowAni {
+    0%{
+        opacity: 1;
+        bottom: 2%;
+    }
+    100%{
+        opacity: 0;
+        bottom: 4%;
+    }
+}
+.arrow_ani
+{
+    animation:arrowAni 2s infinite;
+    -moz-animation:arrowAni 2s infinite; /* Firefox */
+    -webkit-animation:arrowAni 2s infinite; /* Safari and Chrome */
+    -o-animation:arrowAni 2s infinite; /* Opera */
+}
+@keyframes roundAni {
+    0%{
+        transform:scale(0,0);
+        -webkit-transform:scale(0,0);
+    }
+    90%{
+        transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+    }
+    100%{
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+    }
+}
+.round_ani0
+{
+    animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 100ms 1;
+    -moz-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 100ms 1; /* Firefox */
+    -webkit-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 100ms 1; /* Safari and Chrome */
+    -o-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 100ms 1; /* Opera */
+}
+.round_ani1
+{
+    animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 150ms 1;
+    -moz-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 150ms 1; /* Firefox */
+    -webkit-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 150ms 1; /* Safari and Chrome */
+    -o-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 150ms 1; /* Opera */
+}
+.round_ani2
+{
+    animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 200ms 1;
+    -moz-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 200ms 1; /* Firefox */
+    -webkit-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 200ms 1; /* Safari and Chrome */
+    -o-animation:roundAni 200ms cubic-bezier(0, .25, .08, 1) 200ms 1; /* Opera */
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    line-height: 0;
+}
+.pa_t{
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+.pa_arrow{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+}
+.pa_round1{
+    position: absolute;
+    bottom: 46%;
+    left: -8%;
+    width: 36%;
+    z-index: 2;
+    text-align: center;
+}
+.pa_round2{
+     position: absolute;
+     bottom: 31%;
+     left: 3%;
+     width: 35%;
+     z-index: 2;
+     text-align: center;
+ }
+.pa_round3{
+    position: absolute;
+    bottom: 24%;
+    left: 33%;
+    width: 38%;
+    z-index: 2;
+    text-align: center;
+}
+.pa_round4{
+    position: absolute;
+    bottom: 31%;
+    right: 1%;
+    width: 35%;
+    z-index: 2;
+    text-align: center;
+}
+.pa_round5{
+    position: absolute;
+    bottom: 46%;
+    right: -8%;
+    width: 36%;
+    z-index: 2;
+    text-align: center;
+}
+.IOS{
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+.android{
+    position: absolute;
+    bottom: 33%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
